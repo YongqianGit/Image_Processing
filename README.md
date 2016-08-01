@@ -1,4 +1,8 @@
-------------------Basic Info------------------
+#------------------Basic Info------------------
+Automatic detection of tsunami inundation lines from videos and bore speed
+computation
+
+
 ##Project: NEES tsunami project in Oregon State University in 2013 and 2014.
 
 The image processing codes are developed using MATLAB by Yongqian Yang as part
