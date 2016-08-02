@@ -1,4 +1,4 @@
-#------------------Basic Info------------------
+## Introduction
 Automatic detection of tsunami inundation lines from videos and bore speed
 computation
 
