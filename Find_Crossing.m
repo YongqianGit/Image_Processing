@@ -40,7 +40,7 @@ function [along_crossing,cross_crossing,along_norm_fit,cross_norm_fit]=...
 
                 if length(cross_crossing)>1 %for case of two crossing points, choose the nearer one
                     d=(cross_crossing-cross_back).^2+(along_crossing-along_back).^2;
-
+                    [~, id_sort]=sortrows(d);
                     along_crossing=along_crossing(id_sort(1));
                     cross_crossing=cross_crossing(id_sort(1));
                 end
